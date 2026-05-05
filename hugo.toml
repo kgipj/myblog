@@ -1,0 +1,31 @@
+baseURL = "https://kgipj.github.io/myblog/"
+languageCode = "zh-tw"
+title = "我的部落格"
+theme = "archie"
+
+[pagination]
+pagerSize = 10
+
+[params]
+mode = "auto"
+subtitle = "學習、生活與作品紀錄"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 4
